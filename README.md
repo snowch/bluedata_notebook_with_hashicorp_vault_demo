@@ -182,7 +182,7 @@ Create a storage container called `mycontainer`
 
 Add the following CSV file to your azure storage container: 
 
-- https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/datasets/data/boston_house_prices.csv
+- [boston_house_prices.csv](./boston_house_prices.csv) - note this CSV was adapted from https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/datasets/data/boston_house_prices.csv
 
 Now run the following notebook on the cluster:
 
