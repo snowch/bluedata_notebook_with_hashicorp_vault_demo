@@ -4,7 +4,7 @@ Create a **Spark 2.3.1 notebooks & Jupyterhub with SSL & centos7x** cluster.
 
 Create credentials for logging in to Jupyterhub: https://stackoverflow.com/questions/56725570/how-to-create-credentials-for-jupyterhub
 
-If you are using https://github.com/bluedata-community/bluedata-demo-env-aws-terraform, you can provision a Vault instance using:
+If you are using https://github.com/bluedata-community/bluedata-demo-env-aws-terraform, you can provision a Vault instance on EC2 using:
 
 ```
 /******************* Instance: Vault ********************/
