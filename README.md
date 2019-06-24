@@ -156,11 +156,14 @@ vault secrets enable -version=2 -path=secret kv
 
 vault policy write my-policy -<<EOF
 
+path "secret/*" {
+  capabilities = ["create", "update", "read", "delete", "list"]
+}
 path "secret/data/*" {
-  capabilities = ["create", "update", "read", "delete"]
+  capabilities = ["create", "update", "read", "delete", "list"]
 }
 path "secret/data/azure_datalake" {
-  capabilities = ["create", "read", "update", "delete"]
+  capabilities = ["create", "read", "update", "delete", "list"]
 }
 EOF
 
