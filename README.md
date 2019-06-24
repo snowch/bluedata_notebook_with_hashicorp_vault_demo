@@ -186,7 +186,7 @@ Add the following CSV file to your azure storage container:
 
 Now run the following notebook on the cluster:
 
-- [vault_example.ipynb](./vault_example.ipynb)
+- [vault_example.ipynb](https://nbviewer.jupyter.org/github/snowch/bluedata_notebook_with_hashicorp_vault_demo/blob/master/vault_example.ipynb)
 
 ### TODO
 
