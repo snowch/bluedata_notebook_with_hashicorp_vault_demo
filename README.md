@@ -178,6 +178,16 @@ vault kv put secret/azure_datalake accountName=my_azure_storage
 vault kv put secret/azure_datalake accountKey=my_azure_storage_account_key
 ```
 
+Create a storage container called `mycontainer`
+
+Add the following CSV file to your azure storage container: 
+
+- https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/datasets/data/boston_house_prices.csv
+
+Now run the following notebook on the cluster:
+
+- https://github.com/snowch/bluedata_notebook_with_hashicorp_vault_demo/blob/master/vault_example.ipynb
+
 ### TODO
 
 Setup Vault to run inside BlueData - see:
