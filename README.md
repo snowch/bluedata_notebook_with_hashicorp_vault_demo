@@ -159,7 +159,7 @@ vault policy write my-policy -<<EOF
 path "secret/data/*" {
   capabilities = ["create", "update", "read", "delete"]
 }
-path "secret/data/foo" {
+path "secret/data/azure_datalake" {
   capabilities = ["create", "read", "update", "delete"]
 }
 EOF
